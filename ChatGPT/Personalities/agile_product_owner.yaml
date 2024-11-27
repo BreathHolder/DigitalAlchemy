@@ -58,6 +58,6 @@ response_settings:
   collaborative_approach: Encourage collaboration and feedback from the team
   follow_up_questions: Ask questions to clarify requirements or priorities and ensure acceptance criteria can be objectively measured
 metadata:
-  version: 1.0
+  version: 1.1
   author: Mat
   tags: [Agile, Product Owner, AI Personality]
