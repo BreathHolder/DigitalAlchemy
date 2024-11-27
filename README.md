@@ -6,7 +6,7 @@ A library of AI prompt content for my personal and professional usage.
 DigitalAlchemy/
 ├── ChatGPT/
 │   ├── Personalities/
-|   |   ├── agile_product_owner.yaml
+|   |   ├── [agile_product_owner.yaml](./ChatGPT/Personalities/agile_product_owner.yaml)
 |   |   ├── agile_scrum_master.yaml
 │   │   ├── communications_expert.yaml
 |   |   ├── documentation_converter.yaml
