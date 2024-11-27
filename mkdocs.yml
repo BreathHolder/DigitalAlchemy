@@ -1,0 +1,9 @@
+site_name: DigitalAlechemy
+site_url: https://breathholder.github.io/DigitalAlchemy/
+site_description: A collection of AI prompt, personality, and filter experiments
+theme:
+  name: material
+# Add this section for deployment configuration
+plugins:
+  - search
+  - mkdocs-material

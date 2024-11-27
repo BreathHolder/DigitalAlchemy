@@ -6,7 +6,7 @@ A library of AI prompt content for my personal and professional usage.
 DigitalAlchemy/
 ├── ChatGPT/
 │   ├── Personalities/
-|   |   ├── [agile_product_owner.yaml](./ChatGPT/Personalities/agile_product_owner.yaml)
+|   |   ├── agile_product_owner.yaml
 |   |   ├── agile_scrum_master.yaml
 │   │   ├── communications_expert.yaml
 |   |   ├── documentation_converter.yaml
@@ -31,4 +31,32 @@ DigitalAlchemy/
 │   │   ├── positive_prompts.json
 │   │   ├── negative_prompts.json
 ├── README.md
+```
+
+## Getting Setup
+
+1. Install MkDocs Locally:
+```bash
+pip install requirements.txt
+```
+2. Create a New MkDocs Site:
+```bash
+mkdocs new .
+```
+3. Organize Files: Place your converted Markdown files in the docs/ directory.
+4. Configure mkdocs.yml: Add navigation links to your YAML-based personalities:
+```yaml
+site_name: AI Personality Library
+theme:
+  name: material
+nav:
+  - Agile Product Owner: agile_product_owner.md
+```
+5. Preview Locally:
+```bash
+mkdocs serve
+```
+6. Deploy to GitHub Pages:
+```bash
+mkdocs gh-deploy
 ```
