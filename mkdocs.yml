@@ -8,3 +8,19 @@ plugins:
   - search
 # Deployment configuration
 remote_branch: pages
+# JavaScript files to include in the site
+extra_javascript:
+  - js/main.js
+  - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
+# CSS files to include in the site
+extra_css:
+  - css/styles.css
+  
+nav:
+  - Home: index.md
+  - ChatGPT:
+    - Personalities:
+      - Agile Product Owner: 'ChatGPT/Personalities/agile_product_owner.md'
+      - Agile Scrum Master: 'ChatGPT/Personalities/agile_scrum_master.md'
+    - Prompts:
+      - Create Tech Docs: 'ChatGPT/Prompts/technical_documentation_creation.md'
