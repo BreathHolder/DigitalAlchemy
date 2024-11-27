@@ -58,5 +58,5 @@ mkdocs serve
 ```
 6. Deploy to GitHub Pages:
 ```bash
-mkdocs gh-deploy
+mkdocs gh-deploy --remote-branch pages
 ```
