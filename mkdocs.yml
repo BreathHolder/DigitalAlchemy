@@ -6,3 +6,5 @@ theme:
 # Add this section for deployment configuration
 plugins:
   - search
+# Deployment configuration
+remote_branch: pages
