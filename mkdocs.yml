@@ -6,4 +6,3 @@ theme:
 # Add this section for deployment configuration
 plugins:
   - search
-  - mkdocs-material
